@@ -1,0 +1,119 @@
+.gpt3__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer);
+}
+
+.gpt3__footer-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10rem;
+    width: 100%;
+}
+
+.gpt3__footer-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+
+    text-align: center;
+    letter-spacing: -0.04em;
+    margin-bottom: 2rem;
+}
+
+.gpt3__footer-heading button {
+    border: 1px solid #FFFFFF;
+
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+    background: var(--color-bg);
+    min-width: 250px;
+    padding: 0.5rem 1rem;
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.gpt3__footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.gpt3__footer-content-logo {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+}
+
+.gpt3__footer-content-logo img {
+    width: 118px;
+    height: 30px;
+    margin-bottom: 1rem;
+}
+
+.gpt3__footer-content-logo p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+}
+
+.gpt3__footer-content-quick-links {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+}
+
+.gpt3__footer-content-quick-links__div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #FFF;
+    width: 250px;
+    margin: 1rem;
+}
+
+.gpt3__footer-content-quick-links__div h4 {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: var(--font-family);
+    color: #fff;
+
+    margin-bottom: 0.9rem;
+}
+
+.gpt3__footer-content-quick-links__div p {
+    font-size: 12px;
+    line-height: 15px;
+    font-family: var(--font-family);
+    color: #fff;
+
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.gpt3__footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.gpt3__footer-copyright p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    font-feature-settings: 'liga' off;
+
+    color: #FFF;
+}
